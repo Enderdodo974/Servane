@@ -1,0 +1,21 @@
+app.title: Servane Timetable
+menu.file: File
+menu.file.new_list: New list
+menu.file.open_list: Open a list...
+menu.file.save: Save
+menu.file.save_as: Save as...
+menu.file.export_as_ods: Export as .ods
+menu.file.open_settings: Settings
+menu.file.quit_app: Quit the application
+menu.edit: Edit
+menu.edit.cancel: Cancel
+menu.edit.reset: Reset
+menu.edit.cut: Cut
+menu.edit.copy: Copy
+menu.edit.paste: Paste
+menu.edit.select_all: Select all
+menu.edit.search: Search
+menu.edit.replace: Find and replace
+menu.help: Help
+menu.help.show_help: Show help
+menu.help.about: About...
