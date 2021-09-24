@@ -1,0 +1,21 @@
+app.title: Emploi du temps Servane
+menu.file: Fichier
+menu.file.new_list: Nouvelle liste
+menu.file.open_list: Ouvrir une liste...
+menu.file.save: Enregistrer
+menu.file.save_as: Enregistrer sous...
+menu.file.export_as_ods: Exporter en format .ods
+menu.file.open_settings: Paramètres
+menu.file.quit_app: Quitter l'application
+menu.edit: Éditer
+menu.edit.cancel: Annuler
+menu.edit.reset: Rétablir
+menu.edit.cut: Couper
+menu.edit.copy: Copier
+menu.edit.paste: Coller
+menu.edit.select_all: Tout sélectionner
+menu.edit.search: Rechercher
+menu.edit.replace: Rechercher et remplacer
+menu.help: Aide
+menu.help.show_help: Afficher l'aide
+menu.help.about: À propos...
