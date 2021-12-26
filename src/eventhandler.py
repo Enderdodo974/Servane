@@ -1,19 +1,14 @@
-from tkinter import *
+# Gestionnaire d'attributions des touches de l'application Servane
 
-def bind_all_keys(classType):
+from tkinter import Tk
+
+def bind_all_keys(classType: Tk) -> None:
     '''
     Associe tous les raccourcis claviers à la fenêtre.
     '''
-    classType.bind_all('<Control-n>', lambda x: classType.new_list())
+    classType.bind_all('<Control-n>', lambda x: classType.new_list_window())
     classType.bind_all('<Control-o>', lambda x: classType.import_list())
-    classType.bind_all('<Control-s>')
-    classType.bind_all('<Control-Shift-s>')
-    classType.bind_all('<Control-q>', lambda x: classType.quit())
-    classType.bind_all('<Control-z>')
-    classType.bind_all('<Control-y>')
-    classType.bind_all('<Control-x>')
-    classType.bind_all('<Control-c>')
-    classType.bind_all('<Control-v>')
-    classType.bind_all('<Control-a>')
-    classType.bind_all('<Control-f>')
-    classType.bind_all('<Control-h>')
+    classType.bind_all('<Control-s>', lambda x: classType.save_current_list())
+    classType.bind_all('<Control-Shift-S>', lambda x: classType.save_as_list())
+    classType.bind_all('<Control-q>', lambda x: classType.quit_app())
+    classType.bind_all('<F11>', lambda x: classType.show_help())
